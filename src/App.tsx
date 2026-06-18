@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Tab.Navigator screenOptions={{ tabBarLabelStyle: { fontSize: 13, fontWeight: '600' } }}>
+      <Tab.Navigator>
         <Tab.Screen name="Customers" component={CustomersScreen} />
         <Tab.Screen name="Products" component={ProductsScreen} />
         <Tab.Screen name="Orders" component={OrdersScreen} />
