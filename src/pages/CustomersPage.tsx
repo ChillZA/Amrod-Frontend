@@ -17,8 +17,8 @@ export default function CustomersPage() {
     
     if (isLoading)
         return <p>Loading...</p>;
-    // if (error)
-    //     return <p>Error loading customers</p>;
+    if (error)
+        return <p>Error loading customers</p>;
     return (
         <div>
             <h1>Customers</h1>
