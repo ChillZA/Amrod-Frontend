@@ -10,12 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.18.2",
+    "@react-navigation/native": "^7.3.3",
     "@tanstack/react-query": "^5.101.0",
     "axios": "^1.18.0",
     "bootstrap": "^5.3.8",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "react-router-dom": "^7.18.0"
+    "react-native-safe-area-context": "^5.8.0",
+    "react-native-screens": "^4.25.2",
+    "react-router-dom": "^7.18.0",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
